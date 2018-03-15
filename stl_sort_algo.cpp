@@ -59,7 +59,7 @@ int main()
 	// binary_search
 	bool isFound = binary_search(orderList.cbegin(), orderList.cend(), 5);
 	cout << "binary_search() find 5, result:" << boolalpha << isFound << endl;/// false
-	bool isFound = binary_search(orderList.cbegin(), orderList.cend(), 6);
+	isFound = binary_search(orderList.cbegin(), orderList.cend(), 6);
 	cout << "binary_search() find 5, result:" << boolalpha << isFound << endl;/// true
 
 	return 0;
